@@ -8,4 +8,4 @@ describe("CSS Locators", ()=>{
         cy.get("input[type='submit']").click()
         cy.get(".wikipedia-search-results").contains("No results found.");
     })
-})
+})  
