@@ -1,0 +1,21 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "bsaics of cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Cypress;"
+  },
+  "author": "Md Zaid Siddique",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
