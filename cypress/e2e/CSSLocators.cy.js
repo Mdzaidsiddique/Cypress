@@ -1,6 +1,8 @@
 {/* <reference type="Cypress"/>  */}
 // either it includes on top of every spec file or includes only once in supports/commands.js file
 
+// if stuck the refer w3school css locators page
+
 describe("CSS Locators", ()=>{
     it("CSS-locators", ()=>{
         cy.visit("https://testautomationpractice.blogspot.com/")
