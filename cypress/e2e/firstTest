@@ -1,5 +1,14 @@
-// spec file(cy.js) --> contains multiple test suit (describe block)
-// and each test suit can contains multiple it blick (test)
+/*
+    spec file(cy.js) --> contains multiple test suit (describe block)
+    and each test suit can contains multiple it blick (test)
+    we can have replica of describe and it bock as well in a single spec file.
+
+
+    By default, Cypress looks for files with .cy.js, .cy.ts, .spec.js, or .spec.ts extensions.
+    We can customize this pattern to include other file types or files without extensions in cypress.config.js file
+    specPattern:
+*/
+    
 
 
 describe('My First Test', () => {
