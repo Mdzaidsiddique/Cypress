@@ -27,4 +27,13 @@
 // -=- added from my side
 require('cypress-xpath');
 
+
+// creating our own custom commands
+Cypress.Commands.add("getIframe", (iframe) => { //here iframe is locator
+    return cy.get(iframe) 
+        .its('0.contentDocument.body')
+        .should('be.visible')
+        .then(cy.wrap);
+})
+
     
